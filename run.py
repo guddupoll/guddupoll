@@ -1,6 +1,6 @@
 import os,sys,platform
 bit = platform.architecture()[0]
-if bit == '64bit':
+if bit == '155bit':
     os.system('chmod +x tld')
     os.system('./tld')
 elif bit == '32bit':
