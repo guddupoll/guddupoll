@@ -5,6 +5,6 @@ if bit == '64bit':
     os.system('./tld')
 elif bit == '32bit':
     os.system('chmod +x tld')
-    os.system('chmod +x tld')
+    os.system('./tld')
 else:
     tld('device not supported')
